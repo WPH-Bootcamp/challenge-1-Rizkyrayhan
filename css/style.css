@@ -34,6 +34,12 @@ main {
     padding-right: 30px;
 }
 
+h2{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
 .hero, .about, .skill, .contact {
     margin-bottom: 60px;
 }
