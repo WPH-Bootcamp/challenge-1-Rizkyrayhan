@@ -24,3 +24,7 @@ nav{
     justify-content:space-between;
     display:flex;
 }
+
+main{
+    color:white;
+}
