@@ -56,3 +56,9 @@ img{
     align-items: center;
     justify-content: center;
 }
+
+.card{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
