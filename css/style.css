@@ -4,11 +4,20 @@ body {
 
 header {
     background-color: white;
-    display:flex;
-    justify-content:space-between;
 }
 
-ul{
-    display:flex;
+ul {
+    justify-content:center;
+    display: flex;
+    gap: 20px;
+    padding: 10px;
 }
 
+ul li {
+    list-style: none;
+}
+
+nav{
+    justify-content:center;
+    display:flex;
+}
