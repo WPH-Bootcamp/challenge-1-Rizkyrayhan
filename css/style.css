@@ -34,6 +34,7 @@ main {
 
 .hero{
     justify-content: space-between;
+    display: flex;
 }
 
 img{
