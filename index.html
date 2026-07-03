@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Challenge-1 Simple Landing Page with Html and CSS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
@@ -23,19 +26,21 @@
     <main>
         <section class="hero">
             <div>
-                <h2>Hello,I'm Rizky Rayhan</h2>
-                <p>Web developer based in Lampung</p>
+                <h2>Hello, I'm Rizky Rayhan</h2>
+                <p>student WPH Class</p>
             </div>
             <img src="./assets/profile-picture.jpeg" alt="profile picture">
         </section>
 
         <section class="about">
             <h2>About me</h2>
-            <span>Saya adalah seorang mahasiswa semester 6 jurusan informatika dari Universita Teknokrat Indonesia.
-                selama berkuliah saya berhasil membuka jasa pembuatan website dan aplikasi hanya dengan menggunakan
-                vibes coding, tapi saya sadar jika seperti ini terus saya tidak bisa bekerja di perusahaan atau
-                interview karena itu saya mendaftar bootcamp WPH untuk memperdalam skill saya serta bertujuan untuk
-                mendapatkan kerja remote.</span>
+            <div class="about-card">
+                <p>Saya adalah seorang mahasiswa semester 6 jurusan informatika dari Universitas Teknokrat Indonesia.
+                    Selama berkuliah saya berhasil membuka jasa pembuatan website dan aplikasi hanya dengan menggunakan
+                    vibes coding, tapi saya sadar jika seperti ini terus saya tidak bisa bekerja di perusahaan atau
+                    interview karena itu saya mendaftar bootcamp WPH untuk memperdalam skill saya serta bertujuan untuk
+                    mendapatkan kerja remote.</p>
+            </div>
         </section>
 
         <section class="skill">
@@ -60,7 +65,7 @@
             <h2>Contact Me</h2>
             <form class="contact-form">
                 <div class="form-group">
-                    <label for="name">Name</label><br>
+                    <label for="name">Name</label>
                     <input type="text" id="name" placeholder="Your Name" required>
                 </div>
                 <div class="form-group">
@@ -68,10 +73,10 @@
                     <input type="email" id="email" placeholder="Your Email" required>
                 </div>
                 <div class="form-group">
-                    <label for="message">message</label>
-                    <textarea name="message" id="message" placeholder="Type your message here" rows="5"></textarea>
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" placeholder="Type your message here" rows="5" required></textarea>
                 </div>
-                </div>
+                <button type="submit">Send Message</button>
             </form>
         </section>
     </main>
