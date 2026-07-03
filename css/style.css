@@ -7,7 +7,7 @@ header {
     background-color: white;
     padding-left: 30px;
     padding-right: 30px;
-    border: 1px solid black;
+    border: 2px solid black;
     border-radius: 10px;
 }
 
@@ -24,6 +24,7 @@ ul li {
 
 nav {
     justify-content: space-between;
+    align-items: center;
     display: flex;
 }
 
@@ -31,11 +32,15 @@ main {
     padding-top: 100px;
     padding-left: 30px;
     padding-right: 30px;
+}
 
+.hero, .about, .skill, .contact {
+    margin-bottom: 60px;
 }
 
 .hero {
     justify-content: space-between;
+    align-items: center;
     display: flex;
 }
 
@@ -65,17 +70,48 @@ img {
 }
 
 .contact-form {
-    justify-content: center;
-    align-items: center;
-}
-
-.form-group{
     display: flex;
     flex-direction: column;
-    border:1px solid black;
-    padding: 10px;
+    gap: 15px;
+    max-width: 500px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black; /* Tebal border disamakan dengan tema neo-brutalist */
+    padding: 10px 15px;
     border-radius: 10px;
     box-shadow: 3px 3px 0px 0px rgba(0, 0, 0, 1);
-    margin-bottom: 10px;
+}
 
+.form-group label {
+    font-size: 12px;
+    font-weight: bold;
+    color: #555;
+    text-transform: uppercase;
+}
+
+.form-group input,
+.form-group textarea {
+    border: none;
+    outline: none;
+    background: transparent;
+    font-family: inherit;
+    font-size: 16px;
+    padding-top: 5px;
+}
+
+.contact-form button {
+    align-self: flex-start;
+    padding: 10px 20px;
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 3px 3px 0px 0px rgba(0, 0, 0, 1);
+}
+
+.contact-form button:active {
+    box-shadow: 1px 1px 0px 0px rgba(0, 0, 0, 1);
 }
