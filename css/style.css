@@ -4,5 +4,11 @@ body {
 
 header {
     background-color: white;
+    display:flex;
+    justify-content:space-between;
+}
+
+ul{
+    display:flex;
 }
 
