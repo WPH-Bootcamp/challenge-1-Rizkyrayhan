@@ -31,3 +31,12 @@ main {
     padding-top: 100px;
     padding-left: 30px;
 }
+
+.hero{
+    justify-content: space-between;
+}
+
+img{
+    width: 30%;
+    height: auto;
+}
