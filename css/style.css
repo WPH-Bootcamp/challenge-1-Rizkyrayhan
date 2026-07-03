@@ -63,3 +63,13 @@ img {
     gap: 25px;
     align-items: center;
 }
+
+.contact-form {
+    justify-content: center;
+    align-items: center;
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+}
