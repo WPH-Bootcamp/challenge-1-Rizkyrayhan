@@ -4,6 +4,8 @@ body {
 
 header {
     background-color: white;
+    padding-left:20px;
+    padding-right:20px;
 }
 
 ul {
@@ -18,6 +20,6 @@ ul li {
 }
 
 nav{
-    justify-content:center;
+    justify-content:space-between;
     display:flex;
 }
